@@ -1,0 +1,98 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Rosario', sans-serif;
+	color: #cccccc;
+	background-color: #2F3136;
+}
+#padrao
+{
+	margin-left:500px;
+}
+/* ----------------NAVBAR--------------- */
+.barra
+{
+	width: 80px;
+	height: 100vh;
+	position: fixed;
+	background-color: #202225;
+	align-items: center;
+	height: 100%;
+}
+.iconsNav
+{
+	color: #828D97;
+}
+.barra-nav
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+ul li
+{
+	transition: 0.5s; 
+}
+
+/* -----------------BODY---------------- */
+main
+{
+	margin-left: 280px;
+	margin-right: 100px;
+}
+.titulo
+{
+	transition: 3s;
+}
+.fotoTitulo
+{
+	transition: 1s; 
+	border-radius: 65%;
+	position: relative;
+}
+/* ----------------OUTROS--------------- */
+li
+{
+	margin: 10px;
+	margin-top: 40px;
+}
+a
+{
+	text-decoration: none;
+}
+a:link 
+{
+	color: #67b550;
+}
+  
+  /* visited link */
+a:visited 
+{
+	color: #828D97;
+}
+  
+  /* mouse over link */
+a:hover 
+{
+	transition: 0.3s; 
+	color: #67b550;
+}
+  
+  /* selected link */
+a:active
+{
+	color: #828D97;
+}
+/* ----------------FOOTER--------------- */
+
+footer
+{
+	height: 200px;
+	margin-top: 100%;
+	background-color: #202225;
+	text-align: center;
+}
